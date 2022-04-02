@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
             Food food = new Food(nama, informasi, harga, R.drawable.burger);
             foodArrayList.add(food);
 
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this);
+//            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this);
             foodAdapter = new FoodAdapter(foodArrayList, MainActivity.this);
-
-            food_rv.setLayoutManager(linearLayoutManager);
+//
+//            food_rv.setLayoutManager(linearLayoutManager);
             food_rv.setAdapter(foodAdapter);
         }
     };
@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
             Food food = new Food(nama, informasi, harga, R.drawable.roti);
             foodArrayList.add(food);
 
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this);
+//            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this);
             foodAdapter = new FoodAdapter(foodArrayList, MainActivity.this);
-
-            food_rv.setLayoutManager(linearLayoutManager);
+//
+//            food_rv.setLayoutManager(linearLayoutManager);
             food_rv.setAdapter(foodAdapter);
         }
     };
@@ -67,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
             Food food = new Food(nama, informasi, harga, R.drawable.martabak);
             foodArrayList.add(food);
 
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this);
+//            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(MainActivity.this);
             foodAdapter = new FoodAdapter(foodArrayList, MainActivity.this);
-
-            food_rv.setLayoutManager(linearLayoutManager);
+//
+//            food_rv.setLayoutManager(linearLayoutManager);
             food_rv.setAdapter(foodAdapter);
 
 
